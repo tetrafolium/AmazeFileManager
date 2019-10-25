@@ -145,6 +145,6 @@ if (propFile.canRead()) {
         android.buildTypes.release.signingConfig = null
     }
 } else {
-    println 'signing.properties not found'
+    println 'signing.properties not found [message in app/build.gradle]'
     android.buildTypes.release.signingConfig = null
 }
